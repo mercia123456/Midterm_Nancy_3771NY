@@ -1,0 +1,124 @@
+Please answer the below Data Structure Questions:
+
+why do we need data structure?
+A.Data structure is a particular way of storing and organizing information in a computer so
+  that it can be retrieved and used most productively.
+
+What are the various operations that can be performed on different Data Structures?
+B.Operations on Data Structures. The basic operations that are performed on data structures are as follows:
+  Insertion: Insertion means addition of a new data element in a data structure.
+
+List out the areas in which data structures are applied extensively?
+C.The name of areas are:Compiler Design,Operating System,Database Management System,
+  Statistical analysis package,Numerical Analysis,Graphics,Artificial
+  Intelligence,Simulation ae applied.
+
+what is an Array?
+D.An array is a data structure that contains a group of elements.
+  Typically these elements are all of the same data type, such as an integer or string.
+
+what is the difference between the Array and ArrayList?
+E.irst and Major difference between Array and ArrayList in Java is
+  that Array is a fixed length data structure while ArrayList is a variable
+  length Collection class.One more major difference between ArrayList and Array is that,
+   you can not store primitives in ArrayList, it can only contain Objects.
+
+what is LinkedList?
+F.Linked List is a linear data structure.
+
+How is an Array different from Linked List?
+G.In array, each element is independent and can be accessed using it's index value.
+   In case of a linked list, each node/element points to the next, previous.
+
+what is queue?
+H.A queue is a container of objects (a linear collection) that are inserted and
+  removed according to the first-in first-out (FIFO) principle.
+
+what is stack?
+I.A stack is a conceptual structure consisting of a set of homogeneous elements and
+  is based on the principle of last in first out (LIFO).
+
+what is FIFO and LIFO?
+J.The difference between FIFO and LIFO results from the order in which changing unit
+  costs are removed from inventory and become the cost of goods sold. When the unit costs
+  have increased, LIFO will result in a larger cost of goods sold and a smaller ending inventory compared with FIFO.
+
+what is the order of complexity?
+K.the smaller the order of complexity of the program's underlying algorithm,
+  the faster it will run and the better it will scale as the input gets larger.
+
+what is the best case to search an element from an array?
+L.The best case running time of an algorithm is the function defined by the
+  minimum number of steps taken on any instance of size
+
+what is the worst case to search an element from an array?
+M.The worst case arises when the element is at last position or not in the array,
+  therefore we have to traverse the whole array giving n no. of repetitions over loop.
+
+what is tree in data structure?
+N. A tree is a data structure made up of nodes or vertices and edges without having any cycle.
+
+what is graph in data structure?
+O. A set of items connected by edges. Each item is called a vertex or node.
+   Formally, a graph is a set of vertices and a binary relation between vertices, adjacency.
+
+what is the difference between the HashTable and HashMap?
+P.There are several differences between HashMap and Hashtable in Java:
+   Hashtable is synchronized, whereas HashMap is not.
+
+What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
+Q.The major data structures used are as follows:
+
+  · RDBMS – Array (i.e. Array of structures)
+
+  · Network data model – Graph
+
+  · Hierarchical data model – Trees
+
+How HashMap works in java?
+R.HashMap in Java works on hashing principle. HashMap internally stores mapping in the form of Map.
+
+What is ArrayIndexOutOfBoundsException in java? When it occurs?
+S.ArrayIndexOutOfBoundsException. ArrayIndexOutOfBoundsException is thrown to indicate
+  that we are trying to access array element with an illegal index. This exception is thrown
+   when the index is either negative or greater than or equal to the size of the array.
+
+What are the different ways of copying an array into another array?
+T.There are multiple ways to copy elements from one array in Java e.g. you can
+  manually copy elements by using a loop, create a clone of the array, use Arrays.
+  copyOf() method or System.arrayCopy() to start copying elements from one array to
+  another in Java.
+
+What is difference between an array and a linked list?
+U.The difference between an array and a linked list is that an array
+  is an index based data structure, every element is associated with an
+  index whereas the linked list is a data structure that uses references.
+
+What is DFS and BFS?
+V.The breadth first search (BFS) and the depth first search (DFS) are
+  the two algorithms used for traversing and searching a node in a graph.
+
+What are linear and non linear data Structures?
+W.In the linear data structure, the data is organized in a linear
+   order in which elements are linked one after the other. Conversely,
+    non-linear data structure involves multiple levels.
+
+What is Big-(O)-notation?
+X.Big O notation is used in Computer Science to describe the performance
+  or complexity of an algorithm.
+
+Outlined different kind of sorting algorithm with time complexity?
+Y.the number of objects is so large that some of them reside on external storage during the sort,
+   it is called external sorting.Bucket sort
+                                 Bubble sort
+                                 Insertion sort
+                                 Selection sort
+                                 Heapsort
+                                 Mergesort
+
+
+Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
+  a)In terms of Accessing element.
+  b)In terms of Inserting element.
+  c)In terms of Searching element.
+  d)In terms of Removing element.
