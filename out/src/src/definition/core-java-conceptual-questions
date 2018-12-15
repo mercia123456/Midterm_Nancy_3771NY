@@ -50,140 +50,139 @@ What is difference between path and classpath variables?
   the Java compiler to find the path, of classes.ie in J2EE we give the path of jar files.
  2).PATH is nothing but setting up an environment for operating system
 
-What is the difference between an Interface and Abstract class?
-* Main difference is methods of a Java interface are implicitly abstract
-  and cannot have implementations. A Java abstract class can have instance
-  methods that implements a default behavior. Variables declared in a Java interface
-  is by default final. An abstract class may contain non-final variables.
+ What is the difference between an Interface and Abstract class?
+ * Main difference is methods of a Java interface are implicitly abstract
+   and cannot have implementations. A Java abstract class can have instance
+   methods that implements a default behavior. Variables declared in a Java interface
+   is by default final. An abstract class may contain non-final variables.
 
-Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
-* an abstract class is an incomplete class (incomplete in the sense it contains abstract
-  methods without body and output) we cannot create an instance or object;
-  the same way you say for an interface.
+ Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+ * an abstract class is an incomplete class (incomplete in the sense it contains abstract
+   methods without body and output) we cannot create an instance or object;
+   the same way you say for an interface.
 
-what is Access Specifier?
-* An access specifier is a defining code element that can determine which
- elements of a program are allowed to access a specific variable or other piece of data.
+   what is Access Specifier?
+   * An access specifier is a defining code element that can determine which
+    elements of a program are allowed to access a specific variable or other piece of data.
 
-What is OOP ? Define each feature of java OOP.
-* OOP concepts in Java are the main ideas behind Java's Object Oriented Programming.
-  They are an abstraction, encapsulation, inheritance, and polymorphism.
+   What is OOP ? Define each feature of java OOP.
+   * OOP concepts in Java are the main ideas behind Java's Object Oriented Programming.
+     They are an abstraction, encapsulation, inheritance, and polymorphism.
 
-What is Java Package and which package is imported by default?
-* ava.lang package is imported by default, no need to explicitly import it.
- Classes in the java.lang package do not need to be imported (the compiler acts like
- they are always imported).
+   What is Java Package and which package is imported by default?
+   * ava.lang package is imported by default, no need to explicitly import it.
+    Classes in the java.lang package do not need to be imported (the compiler acts like
+    they are always imported).
 
-What is API? Name list of API that you have used so far.
-* An application programming interface (API) is a set of routines, protocols,
-  and tools for building software applications. an API is simply a specification of
-  remote calls exposed to the API consumers.
+   What is API? Name list of API that you have used so far.
+   * An application programming interface (API) is a set of routines, protocols,
+     and tools for building software applications. an API is simply a specification of
+     remote calls exposed to the API consumers.
 
-Does java support multiple inheritance, explain why or why not?
-* Java supports multiple inheritance through interfaces only.
-  A class can implement any number of interfaces but can extend only one class.
-  Multiple inheritance is not supported because it leads to deadly diamond problem.
+   Does java support multiple inheritance, explain why or why not?
+   * Java supports multiple inheritance through interfaces only.
+     A class can implement any number of interfaces but can extend only one class.
+     Multiple inheritance is not supported because it leads to deadly diamond problem.
 
-What is method overloading and when it happens?
-* The reason is that the binding of overridden methods is being done at runtime.
-  *OVERLOADING is basically doing different tasks within one single class but
-  the methods doing the tasks must have same name ,different parameters and may or
-  may not have same return type.It happens at compile-time hence has static binding.
+   What is method overloading and when it happens?
+   * The reason is that the binding of overridden methods is being done at runtime.
+     *OVERLOADING is basically doing different tasks within one single class but
+     the methods doing the tasks must have same name ,different parameters and may or
+     may not have same return type.It happens at compile-time hence has static binding.
 
-Explain exceptions in java and how to handle it.
-* An exception object is an instance of an exception class.
-  It gets created and handed to the Java runtime when an exceptional event
-  occurred that disrupted the normal flow of the application.
+   Explain exceptions in java and how to handle it.
+   * An exception object is an instance of an exception class.
+     It gets created and handed to the Java runtime when an exceptional event
+     occurred that disrupted the normal flow of the application.
 
-An exception object is an instance of an exception class.
-*It gets created and handed to the Java runtime when an exceptional event occurred
-  that disrupted the normal flow of the application.
+   An exception object is an instance of an exception class.
+   *It gets created and handed to the Java runtime when an exceptional event occurred
+     that disrupted the normal flow of the application.
 
-What is final, finally and finalize?
-* Final class can't be inherited, final method can't be overridden
-  and final variable value can't be changed. Finally is used to place important code,
-  it will be executed whether exception is handled or not. Finalize is used to perform
-  clean up processing just before object is garbage collected. 2) Final is a keyword.
+   What is final, finally and finalize?
+   * Final class can't be inherited, final method can't be overridden
+     and final variable value can't be changed. Finally is used to place important code,
+     it will be executed whether exception is handled or not. Finalize is used to perform
+     clean up processing just before object is garbage collected. 2) Final is a keyword.
 
-What is a constructor ?
-* A constructor is a special type of method in a class which is automatically called
-  when the object of that class is created.
+   What is a constructor ?
+   * A constructor is a special type of method in a class which is automatically called
+     when the object of that class is created.
 
-Can we have multiple constructors in a class?
-* A class can have multiple constructors, as long as their signature
-  (the parameters they take) are not the same.
+   Can we have multiple constructors in a class?
+   * A class can have multiple constructors, as long as their signature
+     (the parameters they take) are not the same.
 
-If we don't have a constructor declared, what is called during the object creation?
-* we can declare constructor as a private and also we can get the instance of that class in
-  the subclass by using static method in class in which we declare constructor and then
-  return class object.
+   If we don't have a constructor declared, what is called during the object creation?
+   * we can declare constructor as a private and also we can get the instance of that class in
+     the subclass by using static method in class in which we declare constructor and then
+     return class object.
 
-What is "this" keyword in java ?
-* Keyword THIS is a reference variable in Java that refers to the current object.
-  The various usages of 'THIS' keyword in Java are as follows:
+   What is "this" keyword in java ?
+   * Keyword THIS is a reference variable in Java that refers to the current object.
+     The various usages of 'THIS' keyword in Java are as follows:
 
-What is "super" keyword in java? How many possible way can you use?
-* It is used inside a sub-class method definition to call a method defined in
-  the super class. Private methods of the super-class cannot be called.
-  Only public and protected methods can be called by the super keyword.
-  It is also used by class constructors to invoke constructors of its parent class.
+   What is "super" keyword in java? How many possible way can you use?
+   * It is used inside a sub-class method definition to call a method defined in
+     the super class. Private methods of the super-class cannot be called.
+     Only public and protected methods can be called by the super keyword.
+     It is also used by class constructors to invoke constructors of its parent class.
 
-What is JVM stand for ?
-* A Java virtual machine (JVM) is a virtual machine that enables a computer
-  to run Java programs as well as programs written in other languages that are
-   also compiled to Java bytecode.
+   What is JVM stand for ?
+   * A Java virtual machine (JVM) is a virtual machine that enables a computer
+     to run Java programs as well as programs written in other languages that are
+      also compiled to Java bytecode.
 
-Is JVM platform independent?
-* The JVM must be platform dependent to allow your Java to run on the specific platform.
+   Is JVM platform independent?
+   * The JVM must be platform dependent to allow your Java to run on the specific platform.
 
-What version of java are you using?
-* Java Version in Windows Programs. The latest version(s) of Java on your system will be listed
-  as Java 8 with an associated Update number (eg. Java 8 Update 111).
+   What version of java are you using?
+   * Java Version in Windows Programs. The latest version(s) of Java on your system will be listed
+     as Java 8 with an associated Update number (eg. Java 8 Update 111).
 
-What is JAR stand for ?
-* JAR stands for Java ARchive. It's a file format based on the popular ZIP file format
-  and is used for aggregating many files into one.
+   What is JAR stand for ?
+   * JAR stands for Java ARchive. It's a file format based on the popular ZIP file format
+     and is used for aggregating many files into one.
 
-What is the difference between JDK and JVM?
-* JVM (Java Virtual Machine) is an abstract machine.
-  It is a specification that provides runtime environment in
-  which java bytecode can be executed.JVM, JRE and JDK are platform
-  dependent because configuration of each OS differs. But, Java is platform independent.
+   What is the difference between JDK and JVM?
+   * JVM (Java Virtual Machine) is an abstract machine.
+     It is a specification that provides runtime environment in
+     which java bytecode can be executed.JVM, JRE and JDK are platform
+     dependent because configuration of each OS differs. But, Java is platform independent.
 
-What is the difference between JVM and JRE?
-* JRE is an acronym for Java Runtime Environment.It is used to provide runtime environment.
-  It is the implementation of JVM.It physically exists.JVM uses at runtime.
-  JDK is an acronym for Java Development Kit.It physically exists.It contains JRE + development tools.
+   What is the difference between JVM and JRE?
+   * JRE is an acronym for Java Runtime Environment.It is used to provide runtime environment.
+     It is the implementation of JVM.It physically exists.JVM uses at runtime.
+     JDK is an acronym for Java Development Kit.It physically exists.It contains JRE + development tools.
 
-What is compile time and run time?
-* This compilation process is referred to as compile time. A compiled program can be
-  opened and run by a user. When an application is running, it is called runtime.
+   What is compile time and run time?
+   * This compilation process is referred to as compile time. A compiled program can be
+     opened and run by a user. When an application is running, it is called runtime.
 
-What is heap?
-* A heap, in the context of data structure, is a tree-based data structure that satisfies the heap property,
-  where each element is assigned a key value.
+   What is heap?
+   * A heap, in the context of data structure, is a tree-based data structure that satisfies the heap property,
+     where each element is assigned a key value.
 
-How java manage it's memory?
-* The JVM loads the code, verifies the code, executes the code, manages memory
-  (this includes allocating memory from the Operating System (OS),
-   managing Java allocation including heap compaction and removal of garbage objects)
-    and finally provides the runtime environment.
+   How java manage it's memory?
+   * The JVM loads the code, verifies the code, executes the code, manages memory
+     (this includes allocating memory from the Operating System (OS),
+      managing Java allocation including heap compaction and removal of garbage objects)
+       and finally provides the runtime environment.
 
-What is the difference between String, StringBuffer and StringBuilder?
-* String is immutable, if you try to alter their values, another object gets created,
-   whereas StringBuffer and StringBuilder are mutable so they can change their values.
-   Thread-Safety Difference: The difference between StringBuffer and StringBuilder is
-   that StringBuffer is thread-safe.
+   What is the difference between String, StringBuffer and StringBuilder?
+   * String is immutable, if you try to alter their values, another object gets created,
+      whereas StringBuffer and StringBuilder are mutable so they can change their values.
+      Thread-Safety Difference: The difference between StringBuffer and StringBuilder is
+      that StringBuffer is thread-safe.
 
-What is Serialization and Deserialization?
-* Serialization is a process of converting an object into a sequence of bytes
-  which can be persisted to a disk or database or can be sent through streams.
-  The reverse process of creating object from sequence of bytes is called deserialization.
+   What is Serialization and Deserialization?
+   * Serialization is a process of converting an object into a sequence of bytes
+     which can be persisted to a disk or database or can be sent through streams.
+     The reverse process of creating object from sequence of bytes is called deserialization.
 
-when to use transient variable in java?
-* The Java transient keyword is used on class attributes/variables to indicate
-  that serialization process of such class should ignore such variables while
-  creating a persistent byte stream for any instance of that class.
+        when to use transient variable in java?
+   * The Java transient keyword is used on class attributes/variables to indicate
+     that serialization process of such class should ignore such var
 
 Difference between while and do..while loop?
 * difference between while and do-while loops is that, in while loops,

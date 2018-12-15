@@ -2,10 +2,12 @@
 
 public class Sort {
 
-    long executionTime = 0;{}
+    long executionTime = 0;
 	/*
 	 * Please implement all the sorting algorithm. Feel free to add helper methods.
 	 * Store all the sorted data into one of th
+
+
 
 
      public int[] selectionSort(int [] array){

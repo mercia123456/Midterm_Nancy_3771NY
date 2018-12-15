@@ -122,3 +122,24 @@ Draw a table with time complexity in which it will summarize all the data struct
   b)In terms of Inserting element.
   c)In terms of Searching element.
   d)In terms of Removing element.
+*                                 Common Data Structure Operations
+  Data Structure	    Time Complexity
+                      Average	                                        Worst
+                      Access	    Search	    Insertion	Deletion	Access	    Search	    Insertion	Deletion
+  Array	            Θ(1)	    Θ(n)	    Θ(n)	    Θ(n)	    O(1)	    O(n)	    O(n)	    O(n)
+  Stack	            Θ(n)	    Θ(n)	    Θ(1)	    Θ(1)	    O(n)	    O(n)	    O(1)	    O(1)
+  Queue	            Θ(n)	    Θ(n)	    Θ(1)	    Θ(1)	    O(n)	    O(n)	    O(1)	    O(1)
+  Singly-Linked List	Θ(n)	    Θ(n)	    Θ(1)	    Θ(1)	    O(n)	    O(n)	    O(1)	    O(1)
+  Doubly-Linked List	Θ(n)	    Θ(n)	    Θ(1)	    Θ(1)	    O(n)	    O(n)	    O(1)	    O(1)
+  Skip List	        Θ(log(n))	Θ(log(n))	Θ(log(n))	Θ(log(n))	O(n)	    O(n)	    O(n)	    O(n)
+  Hash Table	        N/A	        Θ(1)	    Θ(1)	    Θ(1)	    N/A	        O(n)	    O(n)	    O(n)
+  Binary Search Tree	Θ(log(n))	Θ(log(n))	Θ(log(n))	Θ(log(n))	O(n)	    O(n)	    O(n)	    O(n)
+  Cartesian Tree	    N/A	        Θ(log(n))	Θ(log(n))	Θ(log(n))	N/A	        O(n)	    O(n)	    O(n)
+  B-Tree	            Θ(log(n))	Θ(log(n))	Θ(log(n))	Θ(log(n))	O(log(n))	O(log(n))	O(log(n))	O(log(n))
+  Red-Black Tree	    Θ(log(n))	Θ(log(n))	Θ(log(n))	Θ(log(n))	O(log(n))	O(log(n))	O(log(n))	O(log(n))
+  Splay Tree	        N/A	        Θ(log(n))	Θ(log(n))	Θ(log(n))	N/A	        O(log(n))	O(log(n))	O(log(n))
+  AVL Tree	        Θ(log(n))	Θ(log(n))	Θ(log(n))	Θ(log(n))	O(log(n))	O(log(n))	O(log(n))	O(log(n))
+  KD Tree 	        Θ(log(n))	Θ(log(n))	Θ(log(n))	Θ(log(n))	O(n)	    O(n)	    O(n)	    O(n)
+
+
+Completed.
